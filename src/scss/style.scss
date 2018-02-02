@@ -1,0 +1,118 @@
+// import our grid
+@import "../../node_modules/bootstrap-sass-grid/sass/bootstrap-sass-grid.scss";
+
+// set css varialbles
+$green: #5db75d;
+$white: #FFF;
+$error-red: #900;
+
+// custom styles
+.align-center {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $green;
+  height: 100px;
+}
+
+.header__title {
+  font-size: 42px;
+  color: $white;
+  font-weight: normal;
+}
+
+.arrow-icon {
+  margin: 50px auto 58px;
+  width: 300px;
+  display: block;
+}
+
+.body-text {
+  font-size: 42px;
+  color: $green;
+  letter-spacing: 1px;
+}
+
+.validation-text {
+  padding-top: 92px;
+}
+
+.margin-bottom-17 {
+  margin-bottom: 17px;
+}
+
+.instructions {
+  list-style: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.instructions {
+  color: $green;
+  font-size: 24px;
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+[type="text"] {
+  display: block;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+  width: 225px;
+  box-shadow: inset 2px 2px 2px 0px #999;
+  margin: 0 auto 10px;
+}
+
+::placeholder {
+  color: #AAA;
+}
+
+.error-message {
+  margin: -10px auto 10px;
+  color: $error-red;
+  display: none;
+  text-align: left;
+  width: 225px;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.error-message.show {
+  display: block !important;
+}
+
+.disclaimer {
+  margin: 12px auto 20px;
+  width: 225px;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.5;
+
+  .error-message {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}
+
+[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.submit-button {
+  font-size: 21px;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px 0;
+  color: $white;
+  background: $green;
+  cursor: pointer;
+}
+

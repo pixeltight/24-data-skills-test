@@ -1,0 +1,30 @@
+{
+  "name": "skills-test",
+  "version": "1.0.0",
+  "description": "skills test client side build and optimize module",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Kerr",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass-grid": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
+    "postcss": "^6.0.17"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
